@@ -1,0 +1,54 @@
+/* Fondo general con degradado */
+body {
+  background: linear-gradient(to bottom, #d0e3ff, #c2b0ff); /* azul claro a lila */
+  color: #1b1b1b;
+  font-family: Arial, sans-serif;
+}
+
+/* Video y canvas con borde y sombra */
+video, canvas {
+  max-width: 640px;
+  width: 100%;
+  height: auto;
+  border: 3px solid #6c63ff; /* morado medio */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Card Headers con degradado */
+.card-header.bg-primary {
+  background: linear-gradient(to right, #6c63ff, #8a78ff);
+  color: white !important;
+  font-weight: bold;
+}
+
+.card-header.bg-success {
+  background: linear-gradient(to right, #5f4dbf, #7c62ff);
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Contadores */
+.card-body p.display-5 {
+  color: #4b3dbb; /* morado oscuro */
+}
+
+/* Cards con fondo suave y sombra */
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(to right, #4b3dbb, #6c63ff) !important;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #4b3dbb;
+  color: #f0f0ff;
+  font-weight: bold;
+}
